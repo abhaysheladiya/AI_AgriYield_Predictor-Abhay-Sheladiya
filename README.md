@@ -1,11 +1,15 @@
-📌 Submission Details
+# Agriculture- Crop and yield Predictor
+## Abstract
+We propose an Intelligent Crop Recommendation and Yield prediction system using Machine Learning that predicts crop suitability by factoring all relevant data such as temperature, rainfall, location, and soil condition. 
+The Yield is predicted based on the parameters of area of land available, agricultural season and the past observations of yield prediction
 
-1. Fork this repository to your own GitHub account, naming it AI_AgriYield_Predictor-[YourName] (replace [YourName] with your actual name).
+This system is primarily concerned with performing Agro Consultants principal role, which is to provide crop recommendations to farmer and the expected yield for that crop.
+## Our Model:
++ ## Our model first predicts the most relevant crop that can be grown given the solid characteristics namely N(Nitrogen), P(Phosphorus), K(Potassium),and the weather of the region namely Temperature, Humidity, Ph, Rainfall and Labels of crops.
++ ## Then, it focuses on predicting the crop yield in advance by analyzing factors like district (assuming same weather and soil parameters in a particular district), state, season, crop type using various supervised machine learning techniques. This helps the farmers to know the crop yield in advance to plan and choose a crop that would give a better yield.
 
-2. Create a folder with your name inside your forked repo and place all your work (code, dataset links, results, and a README).
+Datsets:
+Two Datsets were used which is present in this Repository .Data-Dictionary and further explanation is provided in ppx presentation file.
 
-3. Make regular and meaningful commits for every milestone.
 
-4. Push your changes to your forked repository or upload your work manually.
 
-5. Update your repository at every milestone to reflect your progress.
